@@ -1,0 +1,667 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Start Global  attribut */
+.main-heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.main-heading h3{
+    font-size: 40px;
+    font-weight:900;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 4;
+    display: inline-block;
+}
+.main-heading h3:after {
+    content: '';
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+/* End Global  attribut */
+
+/* start header */
+header{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+/* start navbar */
+.navbar{
+    z-index: 9999;
+}
+.navbar-brand{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.nav-item{
+    font-size: 14px;
+    
+}
+.nav-link{
+    color: #fff !important;
+}
+
+
+ .nav-home{
+    position: relative;
+}
+.nav-home::before{
+    content: "";
+    position: absolute;
+    bottom:30%;
+    left: 20%;
+    width: 60%;
+    height: 2px;
+    background: white;
+}
+
+
+.navbar .navbar-toggler{
+    background-color: #fff !important;
+    border-color: #fff;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+    color: #fff !important;
+}
+#home h1::after{
+    content: 'I AM';
+    font-size: 40px;
+    font-weight:normal !important;
+    display: block;
+    padding-top: 20px;
+    animation: typing 5s ease-in infinite;
+}
+@keyframes typing {
+    0%
+    {
+        content: 'I AM ';
+    }
+    1%
+    {
+        content: 'I AM ';
+    }
+    2%
+    {
+        content: 'I AM L';
+    }
+    3%
+    {
+        content: 'I AM La';
+    }
+    4% { 
+        content: 'I AM Lar';
+    }
+    5% { 
+        content: 'I AM Larr';
+    }
+    6% { 
+        content: 'I AM Larry';
+    }
+    7% { 
+        content: 'I AM Larry D';
+    }
+    8% { 
+        content: 'I AM Larry Da';
+    }
+    9% { 
+        content: 'I AM Larry Dan';
+    }
+    10% { 
+        content: 'I AM Larry Dani';
+    }
+    11% { 
+        content: 'I AM Larry Danie';
+    }
+    12% { 
+        content: 'I AM Larry Daniel';
+    }
+    13% { 
+        content: 'I AM Larry Daniels';
+    }
+    14% { 
+        content: 'I AM Larry Daniels';
+    }
+    15% { 
+        content: 'I AM Larry Daniels';
+    }
+    16% { 
+        content: 'I AM Larry Daniels ';
+    }
+    17% { 
+        content: 'I AM Larry Daniels';
+    }
+    18% { 
+        content: 'I AM Larry Daniels';
+    }
+    19% { 
+        content: 'I AM Larry Daniels';
+    }
+    20% { 
+        content: 'I AM Larry Daniels';
+    }
+    21% { 
+        content: 'I AM Larry Daniel';
+    }
+    22% { 
+        content: 'I AM Larry Danie';
+
+    }
+    23% { 
+        content: 'I AM Larry Dani';
+    }
+    24% { 
+        content: 'I AM Larry Dan';
+    }
+    25% { 
+        content: 'I AM Larry Da';
+    }
+    26% { 
+        content: 'I AM Larry D';
+    }
+    27% { 
+        content: 'I AM Larry ';
+    }
+    28% { 
+        content: 'I AM Larr';
+    }
+    29% { 
+        content: 'I AM Lar';
+    }
+    30% { 
+        content: 'I AM La';
+    }
+    31% { 
+        content: 'I AM L';
+    }
+    32% { 
+        content: 'I AM';
+    }
+    33% { 
+        content: 'I AM ';
+    }
+    34% { 
+        content: 'I AM';
+    }
+    35% { 
+        content: 'I AM';
+    }
+    36% { 
+        content: 'I AM';
+    }
+    37% { 
+        content: 'I AM';
+    }
+    38% { 
+        content: 'I AM';
+    }
+    39% { 
+        content: 'I AM D';
+    }
+    40% { 
+        content: 'I AM De';
+    }
+    41% { 
+        content: 'I AM Des';
+    }
+    42% { 
+        content: 'I AM Desi';
+    }
+    43% { 
+        content: 'I AM Desi';
+    }
+    44% { 
+        content: 'I AM Desig';
+    }
+    45% { 
+        content: 'I AM Design';
+    }
+    46% { 
+        content: 'I AM Designe';
+    }
+    47% { 
+        content: 'I AM Designer';
+    }
+    48% { 
+        content: 'I AM Designer';
+    }
+    49% { 
+        content: 'I AM Designer';
+    }
+    50% { 
+        content: 'I AM Designer';
+    }
+    51% { 
+        content: 'I AM Designer';
+    }
+    52% { 
+        content: 'I AM Designer';
+    }
+    53% { 
+        content: 'I AM Designer';
+    }
+    54% { 
+        content: 'I AM Designer';
+    }
+    55% { 
+        content: 'I AM Designe';
+    }
+    56% { 
+        content: 'I AM Design';
+    }
+    57% { 
+        content: 'I AM Desig';
+    }
+    58% { 
+        content: 'I AM Desi';
+    }
+    59% { 
+        content: 'I AM Desi';
+    }
+    60% { 
+        content: 'I AM Des';
+    }
+    61% { 
+        content: 'I AM De';
+    }
+    63% { 
+        content: 'I AM De';
+    }
+    64% { 
+        content: 'I AM De';
+    }
+    65% { 
+        content: 'I AM D';
+    }
+    67% { 
+        content: 'I AM D';
+    }
+    69% { 
+        content: 'I AM ';
+    }
+    70% { 
+        content: 'I AM';
+    }
+    71% { 
+        content: 'I AM';
+    }
+    72% { 
+        content: 'I AM';
+    }
+    74% { 
+        content: 'I AM';
+    }
+    76% { 
+        content: 'I AM';
+    }
+    77% { 
+        content: 'I AM De';
+    }
+    78% { 
+        content: 'I AM Dev ';
+    }
+    79% { 
+        content: 'I AM Deve ';
+    }
+    80% { 
+        content: 'I AM Devel ';
+    }
+    81% { 
+        content: 'I AM Develo ';
+    }
+    82% { 
+        content: 'I AM Develop ';
+    }
+    83% { 
+        content: 'I AM Develope ';
+    }
+    84% { 
+        content: 'I AM Developer ';
+    }
+    85% { 
+        content: 'I AM Developer ';
+    }
+    86% { 
+        content: 'I AM Developer ';
+    }
+    87% { 
+        content: 'I AM Developer ';
+    }
+    88% { 
+        content: 'I AM Developer ';
+    }
+    89% { 
+        content: 'I AM Develope ';
+    }
+    90% { 
+        content: 'I AM Develop';
+    }
+    91% { 
+        content: 'I AM Develo ';
+    }
+    92% { 
+        content: 'I AM Devel';
+    }
+    93% { 
+        content: 'I AM Deve ';
+    }
+    94% { 
+        content: 'I AM Dev ';
+    }
+    97% { 
+        content: 'I AM De ';
+    }
+    96% { 
+        content: 'I AM D ';
+    }
+    100% { 
+        content: 'I AM';
+    }
+}
+#home .caption i{
+    cursor: pointer;
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+#home .caption i:hover{
+   
+    color:#000 !important ;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width:991px) {   
+     .nav-home::before
+    {
+        background: none;
+    }
+    .navbar-collapse{
+        margin: 0.5rem 0;
+        background: #000;
+        text-align: center;
+        border-radius: 5px;
+        padding: 0.5rem;
+    }
+}
+/* End navbar */
+/* start about-me section */
+.about .left-content::after {
+    content: '';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.about .right-content h3 {
+    font-size: 30px;
+    font-weight:800;
+    margin-bottom: 5px;
+}
+.about .right-content span{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.about .right-content p {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.about .right-content .skills .progress{
+    margin-bottom: 2rem;
+    height:1.5rem !important;
+} 
+.skills .progress .progress-bar{
+    background-color:#1c1c1c;
+}
+.about .right-content .btn-cap .down{
+    transition: all 0.5s;
+}
+.about .right-content .btn-cap .down:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.about .right-content .btn-cap .cont{
+    transition: all 0.5s;
+}
+.about .right-content .btn-cap .cont:hover{
+    background-color: #1c1c1c !important;
+    color: #fff !important;
+}
+.about .progress h5{
+    font-size: 14px;
+}
+.about .right-content .btn-cap a{
+    font-size: 1rem;
+}
+@media screen and (min-width:320px) and (max-width:400px) {
+    .about .right-content .btn-cap a{
+        font-size: 0.8rem;
+    }
+}
+
+/* End about-me section */
+/* start services section */
+#services{
+    background-color: #f7f7f7;
+}
+#services .serv-caption .item-icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+#services .serv-caption:hover .item-icon{
+    background-color: #000;
+    color: #fff;
+} 
+#services .serv-caption h6{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+#services .serv-caption p{
+    font-size: 14px;
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+/* end services */
+/* start portfolio */
+#works .nav-item button {
+    color: black !important;
+    position: relative;
+}
+#works ul li{
+    font-size: 16px;
+    font-weight: 700;
+}
+#works .nav-item button.active {
+    background-color:transparent !important;
+
+}
+#works .nav-item button::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    left: 20%;
+    bottom: 5px;
+    transition: all 0.4s;
+    z-index: -1;
+}
+#works .nav-item button.active::before{
+    width: 60%;
+}
+.overlay-icons i{
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.overlay-icons i:hover{
+    color: #000;
+    background-color: #eee;
+}
+.work-overlay{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 2;
+    transform: translateY(10px);
+}
+.work-content:hover .work-overlay{
+    opacity: 1;
+    transform: translateY(0);
+}
+/* end portfolio */
+/* start clients */
+#clients{
+    background-color: #f7f7f7;
+}
+#clients img{
+    display: inline-block !important;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 30px;
+    
+}
+#clients .testi-caption h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0 5px;
+}
+#clients .testi-caption h6{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+/* end clients */
+/* start statistics */
+.statistics h5{
+    font-size: 32px;
+    font-weight: 900;
+}
+.statistics p{
+    font-size: 15px;
+    font-weight: 600;
+}
+/* end statistics */
+/* start blog */
+#blog{
+    background-color: #f7f7f7;
+}
+#blog .card .card-body a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+#blog .card .card-body h4{
+    font-size: 20px;
+    font-weight: 600 !important;
+}
+#blog .card img{
+    transition: all 0.5s;
+}
+#blog .card img:hover{
+    transform: scale(1.1);
+}
+
+/* end blog */
+/* start contact  */
+#contact .contact-items i{
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+#contact .contact-items:hover i{
+color: #fff;
+background-color: #000;
+}
+#contact .contact-items h6{
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-control{
+    background-color: #f4f4f4 !important;
+}
+.form-control:focus{
+    background-color: #f4f4f4 !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+.w-15{
+    width:15% !important
+}
+form button{
+    transition: all 0.5s !important;
+}
+form button:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000;
+}
+@media screen and (max-width:991px) {
+
+   .w-15{
+    width: 100% !important;
+   } 
+}
